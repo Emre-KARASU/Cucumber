@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@parametre",
+        tags = "@java or @nutella",
         dryRun = false
         //tags = "@ikisi or @java", ikisini birlikte calistirmak icin kullanilir
 
@@ -22,7 +22,7 @@ public class Runner {
     @RunWith(Cucumber.class) notasyonu Runner class'imiza calisma ozelligi katar
     Bu notasyon oldugu icin Cucumber framework'umuz de JUnit kullanmayi tercih ederiz
 
-    features : Runner dosyasinin feature dosyalarini nereden bulacagini tarif eder
+    features : Runner clasinin  feature dosyalarini nereden bulacagini tarif eder
     glue : stepdefinitions dosyalarini nerede bulacagimizi gosterir
     tags : o an hangi tag'i calsitirmak istiyorsak onu belli eder
 
