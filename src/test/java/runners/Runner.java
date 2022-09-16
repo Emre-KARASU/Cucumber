@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@hmc",
-        dryRun = true
+        tags = "@heroku",
+        dryRun = false
         //tags = "@ikisi or @java", ikisini birlikte calistirmak icin kullanilir
 
 )
