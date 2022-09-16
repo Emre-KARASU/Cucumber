@@ -8,6 +8,8 @@ Feature: US1001 Kullanici Amzon Sayfasinda arama yapar
     And sonuclarin Nutella icerdigini test eder
     And sayfayi kapatir
 
+    # iki featureyi birlikte calistirmak icin yazilir @java or @nutella
+
     @java @ikisi
   Scenario: TC02 kullanici amazonda Java aratir
     Given kullanici amazon anasayfasinda
