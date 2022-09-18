@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         //tags = "@ikisi or @java", ikisini birlikte calistirmak icin kullanilir
 
 )
-public class Runner {
+public class TestRunner {
 
     /*
     Bir frameworkte bir tek Runner Class yeterli olabilir
