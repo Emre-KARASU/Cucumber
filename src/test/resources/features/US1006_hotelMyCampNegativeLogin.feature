@@ -26,6 +26,7 @@
     Then kullanici 3 sn bekler
     And sayfayi kapatir
 
+    @pr2
   Scenario: TC11 yanlis kullanici adi ve yanlis sifre ile giris yapilamaz
     Given kullanici "HMCUrl" anasayfasinda
     Then Log in yazisina tiklar

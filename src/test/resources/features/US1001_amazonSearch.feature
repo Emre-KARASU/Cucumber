@@ -10,7 +10,7 @@ Feature: US1001 Kullanici Amzon Sayfasinda arama yapar
 
     # iki featureyi birlikte calistirmak icin yazilir @java or @nutella
 
-    @java @ikisi
+    @java @ikisi @sirali
   Scenario: TC02 kullanici amazonda Java aratir
     Given kullanici amazon anasayfasinda
     Then kullanici Java icin arama yapar

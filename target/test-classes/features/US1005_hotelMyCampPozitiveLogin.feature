@@ -1,7 +1,7 @@
 
   Feature: US1005 dogru kullanici adi ve sifre ile giris yapilabilmeli
 
-    @hmc
+    @hmc @pr1
     Scenario: TC08 positive login test
 
       Given kullanici "HMCUrl" anasayfasinda

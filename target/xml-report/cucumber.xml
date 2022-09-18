@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.397">
-    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC06 kullanici parametre ile amazonda arama yapabilmeli" time="9.258">
-        <failure message="" type="java.lang.AssertionError">
-            <![CDATA[Given kullanici amazon anasayfasinda........................................passed
-And kullanici "Java" icin arama yapar.......................................passed
-And sonuclarin "Hava" icerdigini test eder..................................failed
-Then sayfayi kapatir........................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepDefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(AmazonStepDefinitions.java:69)
-	at ✽.sonuclarin "Hava" icerdigini test eder(file:///C:/Users/ASUS/IdeaProjects/Cucumber_EmreCalisma/src/test/resources/features/US1003_parametreKullanimi.feature:10)
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.242">
+    <testcase classname="US1012 Kullanici register yapabilmeli" name="TC17 kullanici uygun datalarla register olabilmeli" time="0.067">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici "automationUrl" anasayfasinda...............................passed
+And user sign in linkine tiklar.............................................undefined
+And user Create and account bolumune email adresi girer.....................skipped
+And Create an Account butonuna basar........................................skipped
+And user kisisel bilgilerini ve iletisim bilgilerini girer..................skipped
+And user Register butonuna basar............................................skipped
+Then hesap olustugunu dogrular..............................................skipped
 ]]>
         </failure>
     </testcase>
